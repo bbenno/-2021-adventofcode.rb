@@ -65,3 +65,5 @@ In this example, there are 7 measurements that are larger than the
 previous measurement.
 
 How many measurements are larger than the previous measurement?
+
+Your puzzle answer was 1482.
