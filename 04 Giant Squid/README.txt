@@ -97,3 +97,5 @@ would have a sum of unmarked numbers equal to 148 for a final score of
 
 Figure out which board will win last. Once it wins, what would its final
 score be?
+
+Your puzzle answer was 5434.
