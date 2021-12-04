@@ -76,3 +76,5 @@ board won, 24, to get the final score, 188 * 24 = 4512.
 
 To guarantee victory against the giant squid, figure out which board
 will win first. What will your final score be if you choose that board?
+
+Your puzzle answer was 51034.
