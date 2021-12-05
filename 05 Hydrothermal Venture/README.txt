@@ -56,3 +56,5 @@ anywhere in the diagram with a 2 or larger - a total of 5 points.
 
 Consider only horizontal and vertical lines. At how many points do at
 least two lines overlap?
+
+Your puzzle answer was 5576.
