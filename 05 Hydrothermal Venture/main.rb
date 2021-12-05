@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 # frozen_string_literal: true
 
-INPUT_FILE = ARGV[1] || 'input'
+INPUT_FILE = ARGV[0] || 'input'
 
 vent_map = Hash.new(0) # default each location to zero
 
