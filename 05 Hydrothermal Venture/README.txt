@@ -91,3 +91,5 @@ diagram with a 2 or larger - now a total of 12 points.
 
 Consider all of the lines. At how many points do at least two lines
 overlap?
+
+Your puzzle answer was 18144.
