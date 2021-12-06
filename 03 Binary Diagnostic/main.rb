@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 # frozen_string_literal: true
 
-INPUT_FILE = ARGV[0] || 'input'
+INPUT_FILE = ARGV[0] || File.expand_path('input', __dir__)
 
 bit_ratios = File.readlines(INPUT_FILE).map do |line|
   line.strip.split('').map { |bit| bit.to_i * 2 - 1 } # {0,1} -> {-1,1}

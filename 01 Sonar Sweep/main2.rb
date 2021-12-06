@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 # frozen_string_literal: true
 
-INPUT_FILE = ARGV[0] || 'input'
+INPUT_FILE = ARGV[0] || File.expand_path('input', __dir__)
 WINDOWS_SIZE = 3
 
 count = File.readlines(INPUT_FILE)
