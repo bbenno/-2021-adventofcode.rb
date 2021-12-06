@@ -77,3 +77,5 @@ days, there would be a total of 5934.
 
 Find a way to simulate lanternfish. How many lanternfish would there be
 after 80 days?
+
+Your puzzle answer was 350917.
