@@ -1,2 +1,7 @@
 = Advent of Code 2021
 Benno Bielmeier <git@bbenno.com>
+
+Programs solving the https://adventofcode.com/2021[Advent of Code 2021] puzzles, purelyfootnote:[dependency-free] written in the genteel programming language Ruby.
+
+Each of the daily puzzles has its separate folder that holds the puzzle's description as `README.txt`, `input` and solving program `main.rb`.
+The `main2.rb` programs solve the puzzle's extension task ("`part 2`").
