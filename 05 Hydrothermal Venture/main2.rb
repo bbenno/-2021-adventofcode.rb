@@ -3,6 +3,7 @@
 
 INPUT_FILE = ARGV[0] || 'input'
 
+# Map point -> number of covering lines
 vent_map = Hash.new(0) # default each location to zero
 
 File.readlines(INPUT_FILE).each do |line|
@@ -16,8 +17,8 @@ File.readlines(INPUT_FILE).each do |line|
   elsif y[0] == y[1] # vertical line
     (x[0]..x[1]).each { |x_i| vent_map[[x_i, y[0]]] += 1 }
   else # diagonal
-    x_s = (p1[0] < p2[0]) ? 1 : -1
-    y_s = (p1[1] < p2[1]) ? 1 : -1
+    x_s = p1[0] < p2[0] ? 1 : -1
+    y_s = p1[1] < p2[1] ? 1 : -1
 
     range = x[1] - x[0]
 
@@ -25,4 +26,5 @@ File.readlines(INPUT_FILE).each do |line|
   end
 end
 
-puts vent_map.count { |_, count| count >= 2 }
+dangerous_area_count = vent_map.values.count { |lines_count| lines_count >= 2 }
+puts dangerous_area_count

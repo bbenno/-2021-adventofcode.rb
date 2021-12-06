@@ -3,6 +3,7 @@
 
 INPUT_FILE = ARGV[0] || 'input'
 
+# Map point -> number of covering lines
 vent_map = Hash.new(0) # default each location to zero
 
 File.readlines(INPUT_FILE).each do |line|
@@ -20,4 +21,5 @@ File.readlines(INPUT_FILE).each do |line|
   end
 end
 
-puts vent_map.count { |_, count| count >= 2 }
+dangerous_area_count = vent_map.values.count { |lines_count| lines_count >= 2 }
+puts dangerous_area_count
