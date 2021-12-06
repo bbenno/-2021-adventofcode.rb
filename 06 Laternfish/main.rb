@@ -2,9 +2,16 @@
 # frozen_string_literal: true
 
 INPUT_FILE = ARGV[0] || 'input'
+
 DAYS = 80
 
-fishes = File.readlines(INPUT_FILE).first.strip.split(',').map(&:to_i)
+REPRODUCTION_DURATION = 7
+RDI = REPRODUCTION_DURATION - 1 # Index
+
+NEW_BORN_REPRODUCTION_RATE = REPRODUCTION_DURATION + 2
+NRDI = NEW_BORN_REPRODUCTION_RATE - 1 # Index
+
+fishes = File.open(INPUT_FILE, &:readline).split(',').map(&:to_i)
 
 DAYS.times do
   count_new = fishes.count(0)
@@ -12,4 +19,4 @@ DAYS.times do
   fishes.concat(Array.new(count_new, 8))
 end
 
-puts fishes.count
+puts fishes.size
