@@ -7,5 +7,4 @@ count = File.readlines(INPUT_FILE)
             .map(&:to_i)
             .each_cons(2)
             .count { |x, y| x < y }
-
 puts count
