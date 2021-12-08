@@ -110,3 +110,5 @@ those digits. Counting only digits in the output values (the part after
 that use a unique number of segments (highlighted above).
 
 In the output values, how many times do digits 1, 4, 7, or 8 appear?
+
+Your puzzle answer was 321.
