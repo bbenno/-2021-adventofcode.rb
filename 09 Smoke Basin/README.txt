@@ -90,3 +90,5 @@ above example, this is 9 * 14 * 9 = 1134.
 
 What do you get if you multiply together the sizes of the three largest
 basins?
+
+Your puzzle answer was 736920.
