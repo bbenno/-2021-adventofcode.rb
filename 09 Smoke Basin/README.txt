@@ -37,3 +37,5 @@ of the risk levels of all low points in the heightmap is therefore 15.
 
 Find all of the low points on your heightmap. What is the sum of the
 risk levels of all low points on your heightmap?
+
+Your puzzle answer was 539.
