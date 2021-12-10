@@ -77,3 +77,5 @@ syntax error score for this file is 6+57+1197+25137 = 26397 points!
 Find the first illegal character in each corrupted line of the
 navigation subsystem. What is the total syntax error score for those
 errors?
+
+Your puzzle answer was 415953.
