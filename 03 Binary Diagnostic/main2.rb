@@ -4,7 +4,7 @@
 INPUT_FILE = ARGV[0] || File.expand_path('input', __dir__)
 
 list = File.readlines(INPUT_FILE).map do |line|
-  line.strip.split('')
+  line.strip.chars
 end
 
 def bit_find(l, cmp, i = 0)

@@ -16,7 +16,7 @@ def filter_low_points(heightmap) # rubocop:disable Metrics/AbcSize
 end
 
 heightmap = File.readlines(INPUT_FILE).map do |line|
-  line.strip.split('').map(&:to_i)
+  line.strip.chars.map(&:to_i)
 end
 
 low_points_row = filter_low_points(heightmap)

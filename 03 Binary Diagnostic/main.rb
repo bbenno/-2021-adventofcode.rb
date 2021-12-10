@@ -4,7 +4,7 @@
 INPUT_FILE = ARGV[0] || File.expand_path('input', __dir__)
 
 bit_ratios = File.readlines(INPUT_FILE).map do |line|
-  line.strip.split('').map { |bit| bit.to_i * 2 - 1 } # {0,1} -> {-1,1}
+  line.strip.chars.map { |bit| bit.to_i * 2 - 1 } # {0,1} -> {-1,1}
 end.transpose.map(&:sum)
 
 gamma = bit_ratios.map { |ratio| ratio >= 0 ? 1 : 0 }.join.to_i(2)

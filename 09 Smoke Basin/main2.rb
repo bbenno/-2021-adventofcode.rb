@@ -6,7 +6,7 @@ INPUT_FILE = ARGV[0] || 'input'
 basin_sizes = Hash.new(0)
 
 heightmap = File.readlines(INPUT_FILE).map do |line|
-  line.strip.split('').map(&:to_i)
+  line.strip.chars.map(&:to_i)
 end
 
 n = heightmap.size

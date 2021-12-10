@@ -5,7 +5,7 @@ INPUT_FILE = ARGV[0] || 'input'
 
 sum = File.readlines(INPUT_FILE).map do |line|
   input, output = line.split('|').map do |part|
-    part.strip.split.map { |v| v.split('').map(&:to_sym) }
+    part.strip.split.map { |v| v.chars.map(&:to_sym) }
   end
 
   input.sort_by!(&:size)
