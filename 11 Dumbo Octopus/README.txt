@@ -369,3 +369,5 @@ is step 195:
 If you can calculate the exact moments when the octopuses will all flash
 simultaneously, you should be able to navigate through the cavern. What
 is the first step during which all octopuses flash?
+
+Your puzzle answer was 298.
