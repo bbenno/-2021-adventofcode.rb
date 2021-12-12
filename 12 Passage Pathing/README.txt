@@ -118,3 +118,5 @@ Finally, this even larger example has 226 paths through it:
 
 How many paths through this cave system are there that visit small caves
 at most once?
+
+Your puzzle answer was 4167.
