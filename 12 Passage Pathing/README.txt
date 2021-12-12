@@ -175,3 +175,5 @@ even larger example now has 3509 paths through it.
 
 Given these new rules, how many paths through this cave system are
 there?
+
+Your puzzle answer was 98441.
