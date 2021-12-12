@@ -5,3 +5,9 @@ Programs solving the https://adventofcode.com/2021[Advent of Code 2021] puzzles,
 
 Each of the daily puzzles has its separate folder that holds the puzzle's description as `README.txt`, `input` and solving program `main.rb`.
 The `main2.rb` programs solve the puzzle's extension task ("`part 2`").
+
+== Legal
+
+Code is licensed under European Union Public License 1.2 (EUPL-1.2).
+
+Puzzle texts are written by http://was.tl/[Eric Wast] and published on https://adventofcode.com/2021[Advent of Code]. All rights belong to the author.
