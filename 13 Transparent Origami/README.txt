@@ -148,3 +148,5 @@ manual says the code is always eight capital letters.
 
 What code do you use to activate the infrared thermal imaging camera
 system?
+
+Your puzzle answer was UEFZCUCJ.
