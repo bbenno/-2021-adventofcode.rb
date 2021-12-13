@@ -138,3 +138,5 @@ completed count as a single dot.
 
 How many dots are visible after completing just the first fold
 instruction on your transparent paper?
+
+Your puzzle answer was 669.
